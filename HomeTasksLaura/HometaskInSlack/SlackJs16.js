@@ -13,3 +13,5 @@ function greet(name) {
 //   2. "Hello, undefined!"
 //   3. Ошибка: "name is not defined"
 //   4. Ошибка: "greet() takes exactly 1 argument (0 given)"
+
+//   ответ:1)

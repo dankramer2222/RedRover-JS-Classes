@@ -20,4 +20,4 @@ checkAnswer("myFunction() {}");
 //  3) function checkAnswer (selectedAnswer) {}
 //  4) func checkAnswer (selectedAnswer) {}
 // Этот код добавляет функцию `checkAnswer`, которая принимает выбранный пользователем ответ в качестве аргумента. Функция затем сравнивает выбранный ответ с правильным и выводит соответствующее сообщение в консоль.
-// Выберите один ответ: 3)
+// Выберите один ответ: 3)  function checkAnswer (selectedAnswer) {}
