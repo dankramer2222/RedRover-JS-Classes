@@ -6,8 +6,8 @@ function getDrink(name, age) {
            "Может, кефир?";
 }
 
-// Пример использования
+// Пример
 console.log(getDrink("John", 18)); // Выведет: "Возьмите стакан сока"
 console.log(getDrink("Alice", 25)); // Выведет: "Могу предложить бокал вина"
 console.log(getDrink("James", 85)); // Выведет: "Может, кефир?"
-        queueMicrotask
+        

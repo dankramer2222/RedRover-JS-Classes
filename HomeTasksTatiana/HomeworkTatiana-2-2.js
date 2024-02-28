@@ -12,7 +12,7 @@ function calculateBMI(weight, height) {
     }
   }
   
-  // Пример использования функции
+  // Пример 
   const weight = 70; // Вес в кг
   const height = 1.75; // Рост в метрах
   const bmiComment = calculateBMI(weight, height);
