@@ -7,7 +7,18 @@
 // console . log ( "Пpивeт мир!" ) ;
 // Создать декларируемую функцию (function Declaration) и функцию выражение (function Expression).
 
-function getGreetings(){
+// function getGreetings(){
+//     return arr = [
+//         "Hello world!",
+//         "! Hola mundo!",
+//         "Hallo wereld!",
+//         "Пpивeт мир!"
+//     ];
+// }
+
+// console.log(getGreetings());
+
+const getGreetings = function(){
     return [
         "Hello world!",
         "! Hola mundo!",
@@ -15,18 +26,7 @@ function getGreetings(){
         "Пpивeт мир!"
     ];
 }
-
 console.log(getGreetings());
-
-// const getGreetings = function(){
-//     return [
-//         "Hello world!",
-//         "! Hola mundo!",
-//         "Hallo wereld!",
-//         "Пpивeт мир!"
-//     ];
-// }
-// console.log(getGreetings());
 
 // const greetings = {
 //     "english": "Hello world!",
