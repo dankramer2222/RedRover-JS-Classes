@@ -23,7 +23,7 @@ function getTestType(testDef){
             return "This type of testing has not been found.";
     }
 }
-console.log(getTestType("white-box testing"));
+console.log(getTestType("White-box testing"));
 console.log(getTestType("non-functional testing"))
 
 //json option
