@@ -111,12 +111,11 @@
 //     year:1998
 // }
 
-let x,y;
-x = myCar.make;
+let x = myCar.make;
 
 myFunction(myCar);
 
-y = myCar.make;
+let y = myCar.make;
 
 console.log(y)
 
