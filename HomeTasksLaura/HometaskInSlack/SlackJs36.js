@@ -1,19 +1,19 @@
-Задача 36. Возможноли делегированием метода или проксированием метода в объектах JS?
+// Задача 36. Возможноли делегированием метода или проксированием метода в объектах JS?
 
 // Объект John
 let john = {
   name: "John",
   age: 30,
-  greet: function() {
+  greet: function () {
     return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
-  }
+  },
 };
 
 // Создание другого объекта Alice
 let anotherPerson = {
   name: "Alice",
   age: 28,
-  greet: john.greet 
+  greet: john.greet,
 };
 
 console.log(anotherPerson.greet());
