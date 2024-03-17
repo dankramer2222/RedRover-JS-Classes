@@ -28,18 +28,18 @@ const TaskList = {
 
 // Какой из следующих вариантов правильно выведет на консоль названия и описания задач из объекта `TaskList`?
 
-// 1)
-TaskList.printTaskDetails = function () {
-  for (let i = 0; i < this.tasks.length; i++) {
-    console.log(
-      this.status +
-        " | " +
-        this.tasks[i].name +
-        ": " +
-        this.tasks[i].description
-    );
-  }
-};
+// // 1)
+// TaskList.printTaskDetails = function () {
+//   for (let i = 0; i < this.tasks.length; i++) {
+//     console.log(
+//       this.status +
+//         " | " +
+//         this.tasks[i].name +
+//         ": " +
+//         this.tasks[i].description
+//     );
+//   }
+// };
 
 // 2)
 TaskList.printTaskDetails = function () {
@@ -53,25 +53,34 @@ TaskList.printTaskDetails = function () {
 };
 
 // 3)
-TaskList.printTaskDetails = () => {
-  for (let task of this.tasks) {
-    console.log(task.name + ": " + task.description + " | " + task.status);
-  }
-};
+// TaskList.printTaskDetails = () => {
+//   for (let task of this.tasks) {
+//     console.log(task.name + ": " + task.description + " | " + task.status);
+//   }
+// };
 
-// 4)
-TaskList.printTaskDetails = function () {
-  for (let i in this.task) {
-    let task = this.task[i];
-    console.log("Задача: " + task.name);
-    console.log("Описание: " + task.description);
-    console.log("Статус: " + task.status);
-    console.log("-------------------");
-  }
-};
+// // 4)
+// TaskList.printTaskDetails = function () {
+//   for (let i in this.task) {
+//     let task = this.task[i];
+//     console.log("Задача: " + task.name);
+//     console.log("Описание: " + task.description);
+//     console.log("Статус: " + task.status);
+//     console.log("-------------------");
+//   }
+// };
 
 // Вызываем метод для печати подробной информации о задачах
 TaskList.printTaskDetails();
 
-// Выберите один ответ.
+// Выберите один ответ. 2)
 // / можно просто нажать на нужную цифру-эмоджи или в комментариях ответить. Если что-то не понятно - задавайте вопросы в комментариях.
+// Правильный ответ: 2.
+// происходит следующее:
+// 1. Метод `printTaskDetails` добавляется к объекту `TaskList`.
+// 2. Внутри метода создается цикл `for`, который итерирует по массиву задач `this.tasks`.
+// 3. На каждой итерации цикла создается переменная `task`, содержащая текущую задачу.
+// 4. Для каждой задачи выводится на консоль ее название, описание и статус с помощью команды `console.log()`.
+// 5. Между выводом информации о каждой задаче добавляется строка-разделитель `console.log("-------------------")`, чтобы разделить информацию о задачах друг от друга.
+// 6. В результате вызова метода `TaskList.printTaskDetails()`, на консоль выводится подробная информация о каждой задаче в списке `TaskList`.
+// Таким образом, метод `printTaskDetails` позволяет управлять списком задач, обеспечивая видимость состояния каждой из них для участников команды путем вывода подробной информации о каждой задаче.
