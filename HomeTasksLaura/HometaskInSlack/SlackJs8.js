@@ -13,3 +13,14 @@
 const testingTypesString = "Unit Testing, Integration Testing, System Testing, Acceptance Testing";
 const splitResult = testingTypesString.split(',');
 console.log(splitResult);
+
+// Назначение метода `split()` в JavaScript - это разделение строки на подстроки на основе заданного разделителя и возврат массива этих подстрок. Таким образом,
+// :javascript: правильный ответ :
+// 3) Разделить строку на подстроки на основе заданного разделителя и вернуть массив этих подстрок.
+// Пояснение: В данном коде `split()` используется для разделения строки `testingTypesString` по запятой (`,`), что приводит к созданию массива `splitResult`, содержащего подстроки, разделенные запятыми.
+// [
+//   'Unit Testing',
+//   ' Integration Testing',
+//   ' System Testing',
+//   ' Acceptance Testing'
+// ]

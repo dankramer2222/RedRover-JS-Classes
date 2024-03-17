@@ -15,3 +15,5 @@ function greet(name) {
 //   4. Ошибка: "greet() takes exactly 1 argument (0 given)"
 
 //   ответ:1)
+// Верный Ответ: 1. "Hello, stranger!"
+// Функция `greet()` проверяет, передан ли аргумент `name`. Если аргумент не передан (то есть `name` равно `undefined`), она возвращает строку "Hello, stranger!". Таким образом, когда вызывается `console.log(greet());`, без аргумента, функция возвращает "Hello, stranger!".

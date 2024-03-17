@@ -18,3 +18,6 @@ let number = 15;
 let result = number + 5;
 
 console.log(result);
+
+// Верный ответ 3) 20.
+// 15 + 5 = 20
