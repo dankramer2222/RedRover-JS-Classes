@@ -1,0 +1,9 @@
+{
+  "name": "Luna",
+  "age": 9,
+  "color": "white",
+  "breed": "pitbul",
+  "vaccinated": "true",
+  "owner": { "name": "Dan", "phone": "8-800-555-3535" },
+  "favFoods": ["chicken", "hotdogs"]
+}
